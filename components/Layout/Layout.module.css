@@ -1,0 +1,8 @@
+.container {
+  background-image: url('/assets/graphPaper.svg');
+  background-color: rgba(69, 69, 69, 0.808);
+  position: relative;
+  /* z-index: -3; */
+  min-width: 100vw;
+  min-height: 100vh;
+}

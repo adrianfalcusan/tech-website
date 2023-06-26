@@ -1,0 +1,25 @@
+.tag {
+  padding: 10px 20px;
+  margin: 15px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  user-select: none;
+  touch-action: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: move;
+  position: relative;
+  z-index: 23;
+}
+
+.playground {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
